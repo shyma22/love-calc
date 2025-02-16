@@ -9,27 +9,110 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(5px);
+    font-family: "Tangerine", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.9rem;
+    
     
 }
 
 
 #container{
-    background-image: url("kk.jpg");
+    background-image: url("red.jpg");
     margin-top: 100px;
+    margin-bottom: 100px;
     background-color: pink;
-    height: 700px;
-    width: 650px;
-    padding-top: 100px;
-    border-radius: 20px;
+    height: 950px;
+    width: 750px;
+    padding-top: 100px ;
+    border-radius: 9px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #submit{
+    text-align: center;
     margin: 20px 20px;
+    font-family: "Tangerine", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+    border-radius: 9px;
+    border-color: rgba(255, 255, 255, 0.541);
+    color: #000000;
+    background-image: url(kk.jpg);
+    
 }
 input{
     margin: 10px 10px;
+    
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 30px;
+    vertical-align: baseline;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: .16px;
+    border-radius: 0;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    width: 30%;
+    height: 200px;
+    border: none;
+    border-bottom: 1px solid #8d8d8d;
+    background-color: #f4f4f4;
+    padding: 16px 16px;
+    color: #161616;
+    transition: background-color 70ms cubic-bezier(.2,0,.38,.9),outline 70ms cubic-bezier(.2,0,.38,.9);  
+    :focus{
+        outline: 2px solid #0f62fe;
+        outline-offset: -2px;
+    }
+
 }
 #para{
- padding:20px 20px 20px 20px;
+ 
+ letter-spacing: .20px;
+ margin-top: -20px;
+ padding-left: 170px;
+ padding-right: 182px;
+ line-height: 1.9;
+}
+input{
+    border-radius: 10px;
+    height: 25px;
+    margin-top: -20px;
+}
+#love{
+    padding-top: 20px;
+    margin-top: -10px;
+    padding-left: 170px;
+ padding-right: 182px;
+
+}
+#pp{
+    height: 200px;
+}
+#head{
+    margin-top: -37px;
+}
+#under{
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+#sname{
+    margin-top: 15px;
+}
+#tap{
+   margin-top: -40px;
+    height: 30px;
+    border-radius: 500px;
+    padding: 5px;
+    background-color: #fffdf7;
+    background-image: url("kk.jpg");
+    font-weight: 1000;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    font-family: tangerine;
+    border-color: #ffffff;
 }
