@@ -22,7 +22,7 @@ body{
     background-image: url("red.jpg");
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: pink;
+    background-color: rgb(252, 228, 232);
     height: 950px;
     width: 750px;
     padding-top: 100px ;
@@ -57,7 +57,7 @@ input{
     outline: 2px solid transparent;
     outline-offset: -2px;
     width: 30%;
-    height: 200px;
+    height: 220px;
     border: none;
     border-bottom: 1px solid #8d8d8d;
     background-color: #f4f4f4;
@@ -73,14 +73,15 @@ input{
 #para{
  
  letter-spacing: .20px;
+ 
  margin-top: -20px;
  padding-left: 170px;
  padding-right: 182px;
  line-height: 1.9;
 }
 input{
-    border-radius: 10px;
-    height: 25px;
+    border-radius: 5px;
+    height: 20px;
     margin-top: -20px;
 }
 #love{
@@ -88,6 +89,7 @@ input{
     margin-top: -10px;
     padding-left: 170px;
  padding-right: 182px;
+ letter-spacing: .26px;
 
 }
 #pp{
@@ -116,3 +118,4 @@ input{
     font-family: tangerine;
     border-color: #ffffff;
 }
+
