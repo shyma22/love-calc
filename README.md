@@ -1,1 +1,2 @@
-# love-calc
+# Cupid's Calculator
+This project aims to develop an interactive web-based love calculator inspired by the charm of Cupid, offering users a fun and engaging experience while calculating their compatibility with a partner based on their names. Additionally, a unique feature will be added to promote self-love—when users input their own name in both fields, the calculator will display a “Self-Love Percentage,”
